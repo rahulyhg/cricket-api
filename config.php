@@ -5,7 +5,7 @@ $gclient=new Google_Client();
 $gclient->setClientId('107598900486-hfp16n38eva2gbpfvhejd2ssmgstkukm.apps.googleusercontent.com');
 $gclient->setClientSecret('Fu3Cx4YfLsEbIQxQHEW_GHj2');
 $gclient->setApplicationName('google login');
-$gclient->setRedirectUri('https://github.com/vivekcoder123/cricket-api/edit/master/g-callback.php');
+$gclient->setRedirectUri('https://github.com/vivekcoder123/cricket-api/g-callback.php');
 $gclient->addScope('https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email');
 
  ?>
